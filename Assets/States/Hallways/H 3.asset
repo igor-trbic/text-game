@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f17122cca360f2628241ef384d434d2, type: 3}
+  m_Name: H 3
+  m_EditorClassIdentifier: 
+  storyText: 'As you follow down the hallway, it takes another right turn. Walking
+    down you notice there are two doors, one to your left and one to your right.
+    The door to your left it barred down with wooden planks. The door to your right
+    seems like a regular door painted white with red stripes. Also, you can see something
+    down the hallway but cannot quite make up what it is. It seems like a curtain
+    hanging from a ceiling.
+
+
+    1. Continue down the hallway
+
+    2. Try to open
+    barred door
+
+    3. Try to white door
+
+    4. Go back'
+  nextStates:
+  - {fileID: 11400000, guid: 2517f472d93cbdefe810dc85b1ed9be5, type: 2}
+  - {fileID: 11400000, guid: 71c24eda5dfc615fc828c3f18e734a7a, type: 2}
+  - {fileID: 11400000, guid: 2fc3124763443dcf7bede79b74250800, type: 2}
+  - {fileID: 11400000, guid: 71509db9688584f09b9d94aa0816ed4b, type: 2}
+  - {fileID: 11400000, guid: 7599f33709d1d276e92bc9f4489ce47f, type: 2}
+  isCrowbarNeeded: 1
+  hasCrowbar: 0

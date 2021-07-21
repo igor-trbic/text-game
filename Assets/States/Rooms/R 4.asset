@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f17122cca360f2628241ef384d434d2, type: 3}
+  m_Name: R 4
+  m_EditorClassIdentifier: 
+  storyText: 'Once you easily open the door, you see very well lightened room full
+    of animal heads as wall decorations. Once you take a closer look it seems all
+    are fake. The next thing that catches your eye is a big rug on the floor. It
+    looks high qualty.
+
+
+    1. Inspect the rug
+
+    2. Get back'
+  nextStates:
+  - {fileID: 11400000, guid: 41f2acd27a628e37c9f85c94a28f449a, type: 2}
+  - {fileID: 11400000, guid: 46784b3118371b8868acee7fac6512e6, type: 2}
+  isCrowbarNeeded: 0

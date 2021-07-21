@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f17122cca360f2628241ef384d434d2, type: 3}
+  m_Name: R 2
+  m_EditorClassIdentifier: 
+  storyText: 'Once you managed the open the door, you look around and notice a lot
+    of metal objects scattered all around. None of the seems to attract a lot of
+    attention.
+
+
+    1. Get back'
+  nextStates:
+  - {fileID: 11400000, guid: 71509db9688584f09b9d94aa0816ed4b, type: 2}

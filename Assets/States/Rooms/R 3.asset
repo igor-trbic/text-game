@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f17122cca360f2628241ef384d434d2, type: 3}
+  m_Name: R 3
+  m_EditorClassIdentifier: 
+  storyText: 'The door opens with ease and you step inside barely lighted room. In
+    one corner you see something large covered with some plastic sheeting. You can''t
+    really seem to recognize what it is.
+
+
+    1. Uncover the object
+
+    2. Get
+    back'
+  nextStates:
+  - {fileID: 11400000, guid: 2517f472d93cbdefe810dc85b1ed9be5, type: 2}
+  - {fileID: 11400000, guid: 93c357ccd1bdd84328b6509cf3a8f2cb, type: 2}
+  isCrowbarNeeded: 0

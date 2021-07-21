@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f17122cca360f2628241ef384d434d2, type: 3}
+  m_Name: H 4
+  m_EditorClassIdentifier: 
+  storyText: 'You follow the hallway lighted by the candles on the walls. After a
+    few meters you see dark red door to your left side. The door is a slightly open.
+    The hallway continues on but it seems a bit darker further in.
+
+
+    1. Continue
+    down the hallway
+
+    2. Go through the red door
+
+    3. Go back'
+  nextStates:
+  - {fileID: 11400000, guid: 4b8353378b31d1227891a630891cff88, type: 2}
+  - {fileID: 11400000, guid: 5b5cbd63c90bf0daa8d8e9c3bb6a253d, type: 2}
+  - {fileID: 11400000, guid: b49339c347af536d295d379c71c7d35f, type: 2}
+  isCrowbarNeeded: 0

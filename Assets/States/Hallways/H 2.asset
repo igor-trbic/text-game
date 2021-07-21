@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f17122cca360f2628241ef384d434d2, type: 3}
+  m_Name: H 2
+  m_EditorClassIdentifier: 
+  storyText: "Following the hallway you notice a door to your right. It's built of
+    metal craps and it's barely closed, almost like it's jammed. In front of you
+    the hallway continues forward and you can kinda see it ends up ahead. \n\n1.
+    Continue down the hallway\n2. Try to open the metal door\n3. Go back"
+  nextStates:
+  - {fileID: 11400000, guid: 46784b3118371b8868acee7fac6512e6, type: 2}
+  - {fileID: 11400000, guid: 7deddc4bff7aab4f0841d9bd70b0fa40, type: 2}
+  - {fileID: 11400000, guid: 377982e41af08bdec854d27969966036, type: 2}
+  isCrowbarNeeded: 0

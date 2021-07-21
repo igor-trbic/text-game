@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f17122cca360f2628241ef384d434d2, type: 3}
+  m_Name: R 1
+  m_EditorClassIdentifier: 
+  storyText: 'You reach for the old knob and try to open the wooden door. The creaking
+    sound of the door opening sends chill down your spine but you''re a bit relieved
+    once you notice there''s a crowbar inside the small room.
+
+
+    1. Grab a crowbar
+    and get out
+
+    2. Get back in hallway'
+  nextStates:
+  - {fileID: 11400000, guid: b49339c347af536d295d379c71c7d35f, type: 2}
+  - {fileID: 11400000, guid: b49339c347af536d295d379c71c7d35f, type: 2}
+  isCrowbarNeeded: 0
+  hasCrowbar: 1
